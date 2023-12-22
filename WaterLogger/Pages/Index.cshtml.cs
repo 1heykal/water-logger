@@ -44,7 +44,14 @@ namespace WaterLogger.Pages
                         {
                             Id = reader.GetInt32(0),
                             Date = DateTime.Parse(reader.GetString(1), CultureInfo.CurrentUICulture.DateTimeFormat),
-                            Quantity = reader.GetInt32(2),
+                            Quantity = reader.GetFloat(2),
+                            Container = reader.GetString(3) is null? Container.Glass : reader.GetString(3) switch
+                            { 
+                                "Glass" => Container.Glass,
+                                "Bottle" => Container.Bottle,
+                                "BigBottle" => Container.BigBottle,
+                                _ => Container.Glass
+                            }
                         }
                         );
                 }

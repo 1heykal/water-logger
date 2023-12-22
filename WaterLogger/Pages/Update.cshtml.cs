@@ -40,7 +40,15 @@ namespace WaterLogger.Pages
                 {
                     drinkingWaterRecord.Id = reader.GetInt32(0);
                     drinkingWaterRecord.Date = DateTime.Parse(reader.GetString(1), CultureInfo.CurrentUICulture.DateTimeFormat);
-                    drinkingWaterRecord.Quantity = reader.GetInt32(2);
+                    drinkingWaterRecord.Quantity = reader.GetFloat(2);
+                    drinkingWaterRecord.Container = reader.GetString(3) is null ? Container.Glass : reader.GetString(3) switch
+                    {
+                        "Glass" => Container.Glass,
+                        "Bottle" => Container.Bottle,
+                        "BigBottle" => Container.BigBottle,
+                        _ => Container.Glass
+                    };
+
                 }
 
                 return drinkingWaterRecord;
@@ -59,7 +67,7 @@ namespace WaterLogger.Pages
             {
                 connection.Open();
                 var tableCmd = connection.CreateCommand();
-                tableCmd.CommandText = $"update drinking_water set date = '{DrinkingWater.Date}', quantity= {DrinkingWater.Quantity} where id = {DrinkingWater.Id}";
+                tableCmd.CommandText = $"update drinking_water set date = '{DrinkingWater.Date}', quantity= {DrinkingWater.Quantity}, container = '{DrinkingWater.Container}' where id = {DrinkingWater.Id}";
 
                 tableCmd.ExecuteNonQuery();
             }

@@ -18,6 +18,9 @@
         <dd class="col-sm-2">
             @Html.DisplayFor(model => model.DrinkingWater.Quantity)
         </dd>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.DrinkingWater.Container)
+        </dd>
     </dl>
     <form method="post">
         <input type="hidden" asp-for="DrinkingWater.Id"/>

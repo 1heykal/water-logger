@@ -35,7 +35,7 @@ namespace WaterLogger.Pages
                 connection.Open();
                 var tableCmd = connection.CreateCommand();
                 tableCmd.CommandText =
-                    $"insert into drinking_water(date, quantity) values('{DrinkingWater.Date}', {DrinkingWater.Quantity} )";
+                    $"insert into drinking_water(date, quantity, container) values('{DrinkingWater.Date}', {DrinkingWater.Quantity}, '{DrinkingWater.Container}' )";
 
                 tableCmd.ExecuteNonQuery();
             }
