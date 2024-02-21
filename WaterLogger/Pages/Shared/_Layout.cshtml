@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WaterLogger.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
-            @* <nav class="navbar navbar-expand-lg bg-light border-bottom box-shadow p-1">
-                <div class="container">
-                    <a class="navbar-brand" asp-area="" asp-page="/Index"><img class="logo" src="img/water_logo.png" /><span class="h2">Water Me</span></a>
-                </div>
-            </nav> *@
+<body class="bg-light">
+    <header>
+        <nav class="nav navbar navbar-expand-lg bg-light py-1">
+            <div class="container">
+                <a href="~/#" class="navbar-brand">
+                    <img class="logo" src="img/water_logo.png" />
+                </a>
+            </div>
+        </nav>
+    </header>
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
