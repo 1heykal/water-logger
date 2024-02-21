@@ -54,3 +54,11 @@ E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\runtimes\win-arm64\na
 E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 E:\Development\c#\WaterLogger\WaterLogger\obj\Debug\net6.0\WaterLogger.csproj.CopyComplete
+E:\Development\c#\WaterLogger\WaterLogger\obj\Debug\net6.0\WaterLogger.sourcelink.json
+E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Development\c#\WaterLogger\WaterLogger\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Development\c#\WaterLogger\WaterLogger\obj\Debug\net6.0\scopedcss\Pages\index.cshtml.rz.scp.css

@@ -1,26 +1,25 @@
-/* _content/WaterLogger/Pages/index.cshtml.rz.scp.css */
-
-.content[b-89uitl4bn1] {
+﻿
+.content {
     position: relative;
 }
 
-    .content h2[b-89uitl4bn1] {
+    .content h2 {
         position: absolute;
         font-family: 'Poppins', sans-serif;
         font-size: 6em;
     }
 
-        .content h2:nth-child(1)[b-89uitl4bn1] {
+        .content h2:nth-child(1) {
             color: transparent;
             -webkit-text-stroke: 2px #03a9f4;
         }
 
-        .content h2:nth-child(2)[b-89uitl4bn1] {
+        .content h2:nth-child(2) {
             color: #03a9f4;
-            animation: animate-b-89uitl4bn1 4s ease-in-out infinite;
+            animation: animate 4s ease-in-out infinite;
         }
 
-@keyframes animate-b-89uitl4bn1 {
+@keyframes animate {
     0%, 100% {
         clip-path: polygon(0 48%, 13% 51%, 26% 56%, 36% 61%, 45% 67%, 53% 68%, 64% 66%, 77% 62%, 86% 61%, 93% 61%, 100% 61%, 100% 100%, 0 100%);
     }
@@ -29,4 +28,3 @@
         clip-path: polygon(0 77%, 13% 71%, 25% 64%, 34% 57%, 46% 53%, 54% 52%, 67% 57%, 79% 64%, 86% 70%, 91% 74%, 100% 78%, 100% 100%, 0 100%);
     }
 }
-/* _content/WaterLogger/Pages/Shared/_Layout.cshtml.rz.scp.css */

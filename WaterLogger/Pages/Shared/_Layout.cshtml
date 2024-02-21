@@ -9,24 +9,14 @@
     <link rel="stylesheet" href="~/WaterLogger.styles.css" asp-append-version="true" />
 </head>
 <body>
-<div class="background">
-        <header>
-            <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
+            @* <nav class="navbar navbar-expand-lg bg-light border-bottom box-shadow p-1">
                 <div class="container">
-                    <a class="navbar-brand" asp-area="" asp-page="/Index"><img class="logo" src="img/water_logo.png" /> </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <a class="navbar-brand" asp-area="" asp-page="/Index"><img class="logo" src="img/water_logo.png" /><span class="h2">Water Me</span></a>
                 </div>
-            </nav>
-        </header>
-        <div class="container">
+            </nav> *@
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
-        </div>
-</div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

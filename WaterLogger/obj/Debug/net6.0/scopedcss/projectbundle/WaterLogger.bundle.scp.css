@@ -1,49 +1,32 @@
+/* _content/WaterLogger/Pages/index.cshtml.rz.scp.css */
+
+.content[b-89uitl4bn1] {
+    position: relative;
+}
+
+    .content h2[b-89uitl4bn1] {
+        position: absolute;
+        font-family: 'Poppins', sans-serif;
+        font-size: 6em;
+    }
+
+        .content h2:nth-child(1)[b-89uitl4bn1] {
+            color: transparent;
+            -webkit-text-stroke: 2px #03a9f4;
+        }
+
+        .content h2:nth-child(2)[b-89uitl4bn1] {
+            color: #03a9f4;
+            animation: animate-b-89uitl4bn1 4s ease-in-out infinite;
+        }
+
+@keyframes animate-b-89uitl4bn1 {
+    0%, 100% {
+        clip-path: polygon(0 48%, 13% 51%, 26% 56%, 36% 61%, 45% 67%, 53% 68%, 64% 66%, 77% 62%, 86% 61%, 93% 61%, 100% 61%, 100% 100%, 0 100%);
+    }
+
+    50% {
+        clip-path: polygon(0 77%, 13% 71%, 25% 64%, 34% 57%, 46% 53%, 54% 52%, 67% 57%, 79% 64%, 86% 70%, 91% 74%, 100% 78%, 100% 100%, 0 100%);
+    }
+}
 /* _content/WaterLogger/Pages/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-chhpgq1tke] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-a[b-chhpgq1tke] {
-  color: #0077cc;
-}
-
-.btn-primary[b-chhpgq1tke] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active[b-chhpgq1tke], .nav-pills .show > .nav-link[b-chhpgq1tke] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.border-top[b-chhpgq1tke] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-chhpgq1tke] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-chhpgq1tke] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy[b-chhpgq1tke] {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-.footer[b-chhpgq1tke] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-}
